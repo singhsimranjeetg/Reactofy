@@ -20,7 +20,7 @@ const httpLink = createHttpLink({
 // middleware to authenticate  our req.
 const middlewareLink = setContext(() => ({
     headers: {
-        'X-Shopify-Storefront-Access-Token': '58964ab59d9826578aff422131295fb1'
+        'X-Shopify-Storefront-Access-Token': "access token here"
     }
 }));
 
